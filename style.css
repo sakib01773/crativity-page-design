@@ -1,0 +1,201 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    float: left;
+    color: 
+    #385F96;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+nav{
+    float: right;
+    padding: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px 25px;
+    
+}
+nav ul li a{
+    color: #385F96;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    overflow: hidden;
+}
+
+section{
+    overflow: hidden;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+
+.hero{
+   padding: 80px 0px;
+}
+
+.half-width{
+    width: 50%;
+    float: left;
+}
+
+.half-width img{
+    margin-left: 40%;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    color: #385F96;
+    position: relative;
+    
+}
+.title::before{
+    content: "";
+    width: 180px;
+    height: 188px;
+    position: absolute;
+    background-image: url("image/image\ 4.png");
+    background-size: cover;
+    top: -60%;
+    left: -15%;
+    z-index: -1;
+}
+
+.part1{
+    width: 40%;
+    position: relative;
+    
+}
+
+.button{
+    color: white;
+    background-color: #385F96;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 320px;  
+}
+
+.half-width2{
+    width: 50%;
+    float: left;
+}
+
+.part2{
+    width: 40%;
+    position: relative;
+    
+}
+
+.title2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #385F96;
+    position: relative;
+    
+}
+
+.button2{
+    color: white;
+    background-color: #385F96;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 260px; 
+}
+
+.main{
+    padding: 80px 0px;
+}
+.title2::before{
+    content: "";
+    width: 80px;
+    height: 5px;
+    position: absolute;
+    background-color: #44D1D9;
+    top: -15px;
+}
+
+.last{
+    padding: 80px 0px;
+    background-color: #44D1D9;
+}
+
+.half-width3{
+    width: 50%;
+    float: left;
+    
+
+}
+
+.half-width3 img{
+    margin-left: 30%;
+}
+
+.title3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #385F96;
+    position: relative;
+    z-index: 10;
+    
+    
+}
+
+.button3{
+    color: white;
+    background-color: #385F96;
+    padding: 10px 20px;
+    border-radius: 30px;
+    
+    
+}
+
+.part3{
+    width: 30%;
+    padding-left: 150px;
+    padding-top: 80px;
+    
+}
+
+.title3::before{
+    content: "";
+    width: 180px;
+    height: 188px;
+    position: absolute;
+    background-image: url("image/image\ 5.png");
+    background-size: cover;
+    top: -100px;
+    left: -82px;
+   
+    z-index: -2;
+}
+
+
+.footer{
+    background-color: #385F96;
+    text-align: center;
+    color: white;
+    
+    font-weight: 500;
+}
+
+.footer a{
+    color: red;
+}
